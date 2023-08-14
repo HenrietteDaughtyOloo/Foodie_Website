@@ -16,7 +16,7 @@ function App() {
       <Value/> 
       <BestCategories/>
       <Regular/>
-      <Adverts/>
+      {/* <Adverts/> */}
       <Footer/>
     </div>
   );

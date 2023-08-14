@@ -1,10 +1,27 @@
 .menu_items{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 5%;
 }
 img{
     object-fit: cover;
     width: 100%;
     height: auto;
+}
+.buy{
+    border: solid #b73322 1px;
+    color: black;
+    background-color: #f0e6e6;
+    width: 150px;
+    padding: 18px 16px;
+    border-radius: 10px;
+    margin-right: 5%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+
+}
+.food{
+    width: 60%;
 }
