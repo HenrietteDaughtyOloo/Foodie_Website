@@ -1,0 +1,22 @@
+.all_adverts{
+    display: flex;
+    gap: 6%;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.advert_section1{
+    padding: 5%;
+    /* background-color: brown; */
+    margin: 2px;
+    margin-bottom: 5px;
+
+
+}
+.wraps{
+    border: solid 4px;
+    /* background-color: brown; */
+}
+

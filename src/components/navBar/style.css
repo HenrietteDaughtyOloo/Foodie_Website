@@ -1,0 +1,94 @@
+.Navbar {
+    background-color: #f0e6e6;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu_items li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.4s;
+    
+}
+.menu_items li a:hover{
+    color: rgb(181, 58, 58);
+}
+
+
+.menu_items ul {
+    list-style: none;
+    display: flex;
+    margin: 0 100%;
+    padding: 0;
+}
+
+.menu_items li {
+    margin-right: 1rem;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: 4px;
+    justify-content: spa;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px; */
+
+}
+h3{
+    margin: 0;
+    font-size: 18px;
+}
+.signup_button{
+    border: solid #b73322 1px;
+    color: black;
+    background-color: #f0e6e6;
+    width: 150px;
+    padding: 18px 16px;
+    border-radius: 10px;
+    margin-right: 5%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+
+}
+/* Media querries */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu_items {
+        margin-top: 1rem;
+    }
+
+    .menu_items ul {
+        flex-direction: column;
+    }
+
+    .menu_items li {
+        margin: 0.5rem 0;
+    }
+
+}
+
+
+
+
+
+
