@@ -23,5 +23,17 @@ img{
 
 }
 .food{
-    width: 60%;
+    width: 100%;
+    margin-top: -5%;
+    border: solid #b73322 5px;
+    border-radius: 45%;
+    margin: 0,10%;
+    margin-top: 10%;
+}
+.cards{
+    border-radius: 35px;
+    border: #eee0d9 3px solid;
+    padding: 20px;
+    background-color: #eee0d9;
+
 }

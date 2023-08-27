@@ -25,6 +25,7 @@ a{
 }
 .menu_items li a:hover{
     color: rgb(181, 58, 58);
+    padding-left: 60px;
 }
 
 
@@ -53,13 +54,17 @@ h3{
     margin: 0;
     font-size: 18px;
 }
+.logIn{
+    color: #b73322;
+    margin-left: 50%;
+}
 .signup_button{
     border: solid #b73322 1px;
     color: black;
     background-color: #f0e6e6;
     width: 150px;
     padding: 18px 16px;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-right: 5%;
     cursor: pointer;
     transition: background-color 0.3s;

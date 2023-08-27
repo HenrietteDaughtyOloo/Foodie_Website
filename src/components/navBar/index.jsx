@@ -20,7 +20,7 @@ const Navbar = ()=>{
                         <li><a href="#">About</a></li>
                     </ul>
                 </div>
-                    <h3>Login</h3>
+                    <h3 className="logIn">Login</h3>
                     <button className="signup_button">Sign Up</button>
 
             </nav>
