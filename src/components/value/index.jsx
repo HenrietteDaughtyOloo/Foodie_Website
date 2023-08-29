@@ -28,9 +28,9 @@ const Value = ()=>{
                 </div>
 
                 <div>
-            <h2>Fast Delivery</h2>
-                <p>The Food will be delivered to </p>
-                <p>Fresh to Your Home. We</p>
+            <h2>Absolutely Free</h2>
+                <p>No Cost</p>
+                <p>Just Order And Enjoy.</p>
                 <p>Do not deliver Stale food</p>
             </div>
             </div>
